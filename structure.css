@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar {
+    width: 0px; 
+}
+
+header{
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+#social-media{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#coverContent{
+    padding: 20px;
+}
+
+#cover{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menuLinks{
+    padding: 10px;
+}

@@ -1,0 +1,20 @@
+
+
+@media (max-width: 1000px) {
+
+    #headLink{
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width: 670px) {
+
+    #divMoreOptions{
+        display: block;
+    }
+
+    #menuLinks{
+        display: none;
+    }
+}
