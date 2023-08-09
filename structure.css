@@ -40,3 +40,24 @@ header{
 #menuLinks{
     padding: 10px;
 }
+
+
+footer{
+    padding: 30px;
+}
+
+.contentDiv{
+    padding: 30px;
+}
+
+#windowMoreOptions{
+    display: none;
+    background-color: var(--principal-color);
+    position: absolute;
+    width: 44%;
+    height: 50%;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}

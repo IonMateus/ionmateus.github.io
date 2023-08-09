@@ -1,4 +1,6 @@
-
+#divMoreOptions{
+    display: none;
+}
 
 @media (max-width: 1000px) {
 
@@ -10,11 +12,11 @@
 
 @media (max-width: 670px) {
 
-    #divMoreOptions{
-        display: block;
-    }
-
     #menuLinks{
         display: none;
+    }
+
+    #divMoreOptions{
+        display: block;
     }
 }

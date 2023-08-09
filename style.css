@@ -30,6 +30,11 @@ body{
     color: var(--light-grey);
 }
 
+#headLink:hover{
+    text-decoration:line-through;
+    transition: all 0.2s ease;
+}
+
 h1{
     color: var(--light-grey);
 }
@@ -71,4 +76,19 @@ header{
     height: 40px;
     border-radius: 25px;
     border: 0px solid;
+    background-color: var(--light-grey);
+    transition: all 0.3s ease;
 }
+
+#moreOptions:hover{
+    scale: 0.9;
+}
+
+#moreOptions:active{
+    scale: 1.5;
+}
+
+.moreOptionsText{
+    color: var(--dark);
+}
+

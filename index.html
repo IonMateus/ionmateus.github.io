@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Ion Mateus | Home</title>
+
     <link rel="stylesheet" href="./structure.css">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./media.css">
-    <script src="./script.js"></script>
-    <link rel="icon" href="./images/image.jpg">
+
+    <script src="./changeTheme.js"></script>
+    <script src="./openMoreOptions.js"></script>
+
+    <link rel="icon" href="./images/darkIcon.png">
 </head>
 <body>
+
+
 
 <header>
     <h1>Ion Mateus</h1>
@@ -18,13 +25,24 @@
         <a id="headLink" href="#cover">Home</a>
         <a id="headLink" href="#">About</a>
         <a id="headLink" href="#">Projects</a>
-        <a id="headLink" href="#">Others</a>
+        <a onclick="ChangeMoreOptions()" id="headLink" href="#">Others</a>
 
     </div>
-    <div id="divMoreOptions" style="display: none;">
-        <button id="moreOptions">X</button>
+    <div id="divMoreOptions">
+        <button onclick="ChangeMoreOptions()" id="moreOptions">X</button>
     </div>
 </header>
+
+<div id="windowMoreOptions">
+
+    <h1 class="moreOptionsText">More Options</h1>
+    <br>
+    <a id="headLink" href="#cover">Home</a><br><br>
+    <a id="headLink" href="#">About</a><br><br>
+    <a id="headLink" href="#">Projects</a><br><br>
+
+</div>
+
 
 
 <div id="cover">
@@ -62,15 +80,14 @@
 </div>
 
 
-<div id="About">
+<div id="About" class="contentDiv">
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat officiis tempora minima fuga ea debitis voluptatibus deserunt iusto porro, distinctio consequatur illo, assumenda eaque inventore. Aliquam ipsa reprehenderit architecto.</p>
 
 </div>
 
-<br>
 
-<div id="Projects">
+<div id="Projects" class="contentDiv">
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, quaerat officiis tempora minima fuga ea debitis voluptatibus deserunt iusto porro, distinctio consequatur illo, assumenda eaque inventore. Aliquam ipsa reprehenderit architecto.</p>
 
@@ -79,7 +96,7 @@
 
 <footer>
 
-    <h1>Credits</h1>
+    <h1>Footer</h1>
 
 </footer>
     
