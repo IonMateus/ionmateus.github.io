@@ -27,7 +27,7 @@ function setLightTheme() {
 function setDarkTheme() {
     document.documentElement.style.setProperty('--principal-color', '#1E72B9');
     document.documentElement.style.setProperty('--principal-dark', '#10395C');
-    document.documentElement.style.setProperty('--dark', '#a0a0a0');
+    document.documentElement.style.setProperty('--dark', '#z');
     document.documentElement.style.setProperty('--light', '#ffffff');  
     document.documentElement.style.setProperty('--light-grey', '#e8e8e8'); 
     document.documentElement.style.setProperty('--dark-grey', '#212121');
