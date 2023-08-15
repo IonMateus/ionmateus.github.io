@@ -1,0 +1,115 @@
+:root{
+    --principal-color: #1E72B9;
+    --principal-dark: #10395C;
+    --dark: #a0a0a0;
+    --light: #ffffff;
+    --light-grey: #e8e8e8;
+    --dark-grey: #151515;
+}
+
+@font-face {
+    font-family: normal;
+    src: url(./fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-regular.otf);
+}
+
+@font-face {
+    font-family: proxima nova;
+    src: url(./fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf);
+}
+
+*{
+    font-family: normal;
+}
+
+body{
+    background-color: var(--dark-grey);
+}
+
+#socialLink{
+    transition: all 0.3s ease; 
+}
+
+#socialLink:hover{
+    scale: 1.1;
+}
+
+#headLink{
+    margin-right: 70px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--light-grey);
+}
+
+#headLink:hover{
+    text-decoration:underline;
+    transition: all 0.2s ease;
+    color: var(--principal-color);
+}
+
+h1{
+    color: var(--light-grey);
+}
+
+p{
+    color:var(--dark);
+}
+
+header{
+    background-color: var(--dark-grey);
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#changeTheme{
+    border: 0px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: var(--light-grey);
+    color: var(--dark-grey);
+    margin: 10px;
+    transition: all 0.2s ease;
+}
+
+#changeTheme:hover{
+    scale: 0.9;
+}
+
+#changeTheme:active{
+    scale: 1.4;
+}
+
+#changeTheme img{
+    width: 25px;
+    justify-content: center;
+}
+
+#moreOptions{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 0px solid;
+    background-color: var(--light-grey);
+    transition: all 0.3s ease;
+    justify-content: center;
+    transition: all 0.2s ease;
+
+}
+
+#moreOptions:hover{
+    scale: 0.9;
+}
+
+
+#moreOptions:active{
+    scale: 1.4;
+}
+
+
+footer{
+    background-color: var(--light);
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.footerContent{
+    color: var(--dark-grey);
+}
