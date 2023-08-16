@@ -1,10 +1,10 @@
 :root{
-    --principal-color: #1E72B9;
-    --principal-dark: #10395C;
-    --dark: #c0c0c0;
-    --light: #ffffff;
-    --light-grey: #e8e8e8;
-    --dark-grey: #212121;
+    --principal-color: #10395C;
+    --principal-dark: #1E72B9;
+    --dark: #000000;
+    --light: #000000;
+    --light-grey: #212121;
+    --dark-grey: #e8e8e8;
 }
 
 @font-face {
@@ -120,4 +120,15 @@ footer *{
 
 #moreOptionsDiv #changeTheme{
     background-color: var(--dark-grey);
+}
+
+#btnDownload{
+    padding: 20px;
+    font-size: 20px;
+    border: 0px solid;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
 }

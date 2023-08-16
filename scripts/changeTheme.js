@@ -1,4 +1,8 @@
-let isDarkTheme = true;
+window.onload = function(){
+    setLightTheme()
+}
+
+let isDarkTheme = false;
 
 function setTheme(){
     if(isDarkTheme){
