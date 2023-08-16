@@ -9,7 +9,7 @@ sol
 ----------------------------------------------------------
 <a target="_blank" href="https://icons8.com/icon/IuI5Yd3J3qcC/linkedin">LinkedIn</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>linkedin
 ----------------------------------------------------------
-
+<a target="_blank" href="https://icons8.com/icon/wmZ1N5Mlfo7t/cv">CV</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> curriculum
 ----------------------------------------------------------
 
 ----------------------------------------------------------

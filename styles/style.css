@@ -1,10 +1,10 @@
 :root{
     --principal-color: #1E72B9;
     --principal-dark: #10395C;
-    --dark: #a0a0a0;
+    --dark: #c0c0c0;
     --light: #ffffff;
     --light-grey: #e8e8e8;
-    --dark-grey: #151515;
+    --dark-grey: #212121;
 }
 
 @font-face {
@@ -110,6 +110,14 @@ footer{
     box-shadow: 0px 0px 20px #000000;
 }
 
-.footerContent{
+footer *{
     color: var(--dark-grey);
+}
+
+#moreOptionsDiv *{
+    color: var(--dark-grey);
+}
+
+#moreOptionsDiv #changeTheme{
+    background-color: var(--dark-grey);
 }

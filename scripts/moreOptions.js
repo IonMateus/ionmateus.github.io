@@ -7,12 +7,14 @@ function ShowMoreOptions(){
     isHide = false
     }else{
         HideMoreOptions()
-        isHide = true
     }
 }
 
 function HideMoreOptions(){
     let element = document.getElementById("moreOptionsDiv");
+    if(element.style.display != "none"){
+        element.classList.toggle("moreOptionsDivStyle");
+    }
     element.style.display = "none"
-    element.classList.toggle("moreOptionsDivStyle");
+    isHide = true
 }
