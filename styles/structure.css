@@ -73,3 +73,27 @@ footer{
 #moreOptionsDiv{
     display: none;
 }
+
+.projectsDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project{
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+}
+
+.project *{
+    margin: 20px;
+    padding: 10px;
+}

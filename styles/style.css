@@ -132,3 +132,27 @@ footer *{
 a{
     text-decoration: none;
 }
+
+.project{
+    background-color: var(--principal-color);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    text-align: center;
+}
+
+.project h1{
+    color: var(--dark-grey);
+    background-color: var(--light-grey);
+}
+
+
+.project a{
+    color: var(--dark-grey);
+    background-color: var(--light-grey);
+}
+
+
+
+ .project p{
+    background-color: var(--dark-grey);
+ }
