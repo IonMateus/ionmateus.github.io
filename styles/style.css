@@ -156,3 +156,10 @@ a{
  .project p{
     background-color: var(--dark-grey);
  }
+
+#others{
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 20px;
+    color: var(--light-grey);
+}
