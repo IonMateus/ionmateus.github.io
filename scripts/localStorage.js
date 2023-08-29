@@ -2,8 +2,6 @@
 window.onload=function(){
     if(!localStorage.getItem('cookies')){
         document.querySelector("#cookiesDiv").style.display = "block"
-    }else{
-        
     }
 }
 
@@ -16,7 +14,6 @@ function createCookies(){
 
     localStorage.setItem('cookies', JSON.stringify(cookieCheck));
 
-
-    
+    document.querySelector("#cookiesDiv").style.display = "none"
 }
 
