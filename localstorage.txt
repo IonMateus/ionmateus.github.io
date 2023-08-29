@@ -1,0 +1,25 @@
+
+
+let teste = JSON.parse(localStorage.getItem('nomeDaChave') || '[]');
+
+var arrrayComDados = {
+    nome: "Ion Mateus",
+    numero: 123
+};
+
+teste.push(arrrayComDados);
+
+localStorage.setItem('nomeDaChave', JSON.stringify(teste));
+
+
+
+
+
+
+var variavelAdquirida = JSON.parse(localStorage.getItem('nomeDaChave'));
+
+variavelAdquirida.forEach((item) => {
+    alert(item.nome + ": " + item.numero);
+});
+
+

@@ -163,3 +163,16 @@ a{
     font-size: 20px;
     color: var(--light-grey);
 }
+
+#cookiesDiv{
+    background-color: var(--light-grey);
+}#cookiesDiv h1{color: var(--principal-color);}
+#cookiesDiv p{color: var(--dark-grey);}#cookiesDiv button{
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: var(--dark-grey);
+    color: var(--light);
+    transition: all 0.2s ease;
+    font-size: 15px;
+}#cookiesDiv button:hover{scale: 1.2;}
+#cookiesDiv button:active{scale: 0.9;}

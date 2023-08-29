@@ -2,17 +2,19 @@ window.onload = function(){
     setLightTheme()
 }
 
-let isDarkTheme = false;
+let isDarkTheme = true;
 
 function setTheme(){
     if(isDarkTheme){
-        setLightTheme();
+        setDarkTheme();
         isDarkTheme = false
     }else{
-        setDarkTheme();
+        setLightTheme();
         isDarkTheme = true
     }
 }
+
+window.onload = function(){setTheme()}
 
 function setLightTheme() {
     document.documentElement.style.setProperty('--principal-color', '#10395C');

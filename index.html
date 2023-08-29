@@ -12,8 +12,9 @@
 
     <script src="./scripts/changeTheme.js"></script>
     <script src="./scripts/moreOptions.js"></script>
+    <script src="./scripts/localStorage.js"></script>
 
-    <link rel="icon" href="./images/darkIcon.png">
+    <link rel="icon" href="./images/myIcon.png">
 </head>
 <body >
 
@@ -38,7 +39,7 @@
         </select>-->
 
         <button id="changeTheme" onclick="setTheme()">
-            <img id="themeIcon" src="./images/lightIcon.png" alt="">
+            <img id="themeIcon" src="./images/darkIcon.png" alt="">
         </button>
 
         
@@ -60,6 +61,17 @@
 
     </div>
 
+
+
+    
+<div id="cookiesDiv" style="display:none">
+    <h1 style="color:var(--principal-dark)">Do you want some... Cookies?!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam nesciunt molestiae commodi, delectus ipsam, alias repudiandae ea sequi ad fugiat modi, voluptatum in beatae magni error sunt. Deleniti, minima numquam!</p>
+
+    <button onclick="DeclineCookies()">Recusar</button>
+    <button onclick="createCookies()">Aceitar</button>
+</div>
+
 </header>
 
 
@@ -79,8 +91,8 @@
     </div>
 
     <div id="coverContent">
-        <h1>Lorem, ipsum! 👋</h1><br>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum molestias debitis nobis. Debitis culpa laboriosam odit esse ipsum nisi qimus laudantium facere iure, iusto odio error. Reprehenderit, quasi fugit?</p>
+        <h1>👋 Hi, I'm Ion Mateus!</h1><br>
+        <p style="font-size: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet assumenda ducimus eaque quo saepe delectus qui nam, laboriosam nulla illum, minima accusamus enim alias laudantium omnis possimus, molestias iste excepturi.</p>
        
         
     </div>
@@ -133,7 +145,6 @@
     </div>
 
 </div>
-
 
 <footer>
 
