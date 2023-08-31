@@ -1,5 +1,17 @@
+
+
 window.onload = function(){
-    setLightTheme()
+
+    if(localStorage.getItem("cookies")){
+
+    var themeOption = JSON.parse(localStorage.getItem('themeOption'));
+
+    themeOption.forEach((item) => {
+        isDarkTheme = item
+        setTheme()
+    });
+    }
+
 }
 
 let isDarkTheme = true;
@@ -14,8 +26,6 @@ function setTheme(){
     }
 }
 
-window.onload = function(){setTheme()}
-
 function setLightTheme() {
     document.documentElement.style.setProperty('--principal-color', '#10395C');
     document.documentElement.style.setProperty('--principal-dark', '#1E72B9');
@@ -28,6 +38,8 @@ function setLightTheme() {
 
     //document.getElementById("gitLink").src="./images/darkGitIcon.png"
     //document.getElementById("cvLink").src="./images/darkCvIcon.png"
+
+    SetCookies(false)
 }
 
 function setDarkTheme() {
@@ -42,4 +54,12 @@ function setDarkTheme() {
 
     //document.getElementById("gitLink").src="./images/lightGitIcon.png"
     //document.getElementById("cvLink").src="./images/lightCvIcon.png"
+
+    SetCookies(true)
+}
+
+function SetCookies(bool){
+
+    localStorage.setItem('themeOption', JSON.stringify(bool));
+
 }

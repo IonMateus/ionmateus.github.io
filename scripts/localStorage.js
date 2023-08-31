@@ -3,6 +3,8 @@ window.onload=function(){
     if(!localStorage.getItem('cookies')){
         document.querySelector("#cookiesDiv").style.display = "block"
     }
+    createCookies()
+    alert()
 }
 
 function DeclineCookies(){
@@ -10,10 +12,25 @@ function DeclineCookies(){
 }
 
 function createCookies(){
+    if(localStorage.getItem('cookies')){
+
+    document.querySelector("#cookiesDiv").style.display = "none"
+
     let cookieCheck = JSON.parse(localStorage.getItem('cookies') || '[]');
 
     localStorage.setItem('cookies', JSON.stringify(cookieCheck));
 
-    document.querySelector("#cookiesDiv").style.display = "none"
+
+
+    let themeOption = JSON.parse(localStorage.getItem('themeOption') || '[]');
+
+    var darkTheme = false;
+    
+    themeOption.push(darkTheme);
+
+    localStorage.setItem('themeOption', JSON.stringify(themeOption));
+
+
+    }
 }
 

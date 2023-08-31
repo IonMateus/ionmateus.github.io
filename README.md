@@ -1,4 +1,7 @@
-###🌐 My personal website! 
+### 🌐 My personal website! 
 
 
-Ion Mateus
+
+### Credits
+
+* Icon8 

@@ -176,3 +176,7 @@ a{
     font-size: 15px;
 }#cookiesDiv button:hover{scale: 1.2;}
 #cookiesDiv button:active{scale: 0.9;}
+
+button,a:hover{
+    cursor: pointer;
+}
