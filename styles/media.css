@@ -20,4 +20,12 @@
         display: block;
     }
 
+    .project *{
+        display: flex;
+    }
+
+    .project{
+        
+    }
+
 }
