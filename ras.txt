@@ -1,0 +1,11 @@
+<meta property="og:site_name" content="Oi">
+<meta property="og:url" content="https://www.oi.com.br/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image" width="63">
+<meta property="og:image" height="70">
+
+<meta name="description" content="Consulte disponibilidade de Oi Fibra no seu CEP e tenha até 1 Giga pra navegar à vontade. Acesse 2ª via e outros serviços.">
+<meta property="og:image" content="https://oi.com.br/data/files/6E/F5/0E/E3/E53208104099220878F88204/logo-header.svg">
+
