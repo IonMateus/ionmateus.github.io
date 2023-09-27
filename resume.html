@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Ion Mateus</title>
+    <title>Ion Mateus | Resume</title>
 
     <link rel="stylesheet" href="./styles/structure.css">
     <link rel="stylesheet" href="./styles/style.css">
@@ -12,44 +12,15 @@
 
     <script src="./scripts/changeTheme.js"></script>
     <script src="./scripts/moreOptions.js"></script>
+    <script src="./scripts/includes.js"></script>
 
-    <link rel="icon" href="./images/darkIcon.png">
+    <link rel="icon" href="./images/favicon.ico">
 </head>
 <body >
 
 
 
-    <header >
-
-        <h1 style="margin-top:auto;margin-bottom:auto;padding:10px">Ion Mateus</h1>
-    
-        <div id="menuLinks">
-    
-            <a id="headLink" href="./index.html">Home</a>
-            <a id="headLink" href="#">Resume</a>
-            <a id="headLink" href="./index.html#Projects">Projects</a>
-            <button id="changeTheme" onclick="setTheme()">
-                <img id="themeIcon" src="./images/darkIcon.png" alt="">
-            </button>
-            
-        </div>
-    
-        <div id="divMoreOptions">
-            <button onclick="ShowMoreOptions()" id="moreOptions"><p style="color:var(--dark-grey);font-size:30px">=</p></button>
-        </div>
-    
-        <div id="moreOptionsDiv" onclick="HideMoreOptions()">
-            
-            <a id="headLink" href="./index.html">Home</a>
-            <a id="headLink" href="./resume.html">Resume</a>
-            <a id="headLink" href="./index.html#Projects">Projects</a>
-            <button id="changeTheme" onclick="setTheme()">
-                <img id="themeIcon" src="./images/lightIcon.png" alt="">
-            </button>
-    
-        </div>
-    
-    </header>
+    <div id="header"></div>
 
 
 
@@ -64,22 +35,14 @@
         <img width="100%" src="./images/image.jpg" alt="">
         
         <br><br>
-        <button id="btnDownload"  style="background-color:var(--principal-color)"><a href="./images/image.jpg" download  style="color:var(--dark-grey)">Click Here to Download</a></button>
+        <button id="btnDownload"  style="background-color:var(--principal-color)"><a href="./downloads/image.jpg" download  style="color:var(--dark-grey)">Click Here to Download CV</a></button>
 
         
     </div>
 
 </div>
 
-
-
-
-<footer>
-
-    <h1>Footer</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis unde in quo reprehenderit odit ab sit ipsa nisi porro atque aut, repudiandae debitis illo optio nemo aspernatur magni ipsum placeat!</p>
-
-</footer>
+<div id="footer"></div>
     
 </body>
 </html>

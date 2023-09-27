@@ -7,19 +7,6 @@
     --dark-grey: #e8e8e8;
 }
 
-@font-face {
-    font-family: normal;
-    src: url(./fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanova-regular.otf);
-}
-
-@font-face {
-    font-family: proxima nova;
-    src: url(./fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-mediumit.otf);
-}
-
-*{
-    font-family: normal;
-}
 
 body{
     background-color: var(--dark-grey);

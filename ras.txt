@@ -9,3 +9,44 @@
 <meta name="description" content="Consulte disponibilidade de Oi Fibra no seu CEP e tenha até 1 Giga pra navegar à vontade. Acesse 2ª via e outros serviços.">
 <meta property="og:image" content="https://oi.com.br/data/files/6E/F5/0E/E3/E53208104099220878F88204/logo-header.svg">
 
+=--------------------------------======================================------
+
+
+
+let teste = JSON.parse(localStorage.getItem('nomeDaChave') || '[]');
+
+var arrrayComDados = {
+    nome: "Ion Mateus",
+    numero: 123
+};
+
+teste.push(arrrayComDados);
+
+localStorage.setItem('nomeDaChave', JSON.stringify(teste));
+
+
+
+
+
+
+var variavelAdquirida = JSON.parse(localStorage.getItem('nomeDaChave'));
+
+variavelAdquirida.forEach((item) => {
+    alert(item.nome + ": " + item.numero);
+});
+
+
+----------------------------------------------------------------
+
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+</script>
+
+<div id="footer"></div>
+
+---------------------------------------------------------------------------
+

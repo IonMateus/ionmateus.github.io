@@ -4,12 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-        <meta name="author" content="Ion Mateus">
+        <meta name="creator" content="Ion Mateus">
         <meta name="description" content="Site pessoal de Ion Mateus!">
-        <meta name="keywords" content="site pessoal, Ion Mateus, desenvolvedor web">
+        
     
         <meta name="google-site-verification" content="K9Yel8W_i-lbF5V3sZaOs6fHDiT9E3qEryAkoN9DeZA">
     
+        <!--
+        <meta name="keywords" content="site pessoal, Ion Mateus">
+
         <meta property="og:site_name" content="Ion Mateus">
         <meta property="og:url" content="https://www.ionmateus.github.io/">
         <meta property="og:type" content="website">
@@ -18,75 +21,24 @@
         <meta property="og:image:type" content="image/png">
         <meta property="og:image:width" content="63">
         <meta property="og:image:height" content="70">
+        -->
     
         <link rel="stylesheet" href="./styles/structure.css">
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="./styles/media.css">
-        <link rel="icon" href="./images/myIcon.png">
+        <link rel="icon" href="./images/favicon.ico">
     
         <script src="./scripts/changeTheme.js"></script>
         <script src="./scripts/moreOptions.js"></script>
         <script src="./scripts/localStorage.js"></script>
+        <script src="./scripts/includes.js"></script>
     
-        <title>Site Pessoal de Ion Mateus</title>
+        <title>Ion Mateus</title>
     </head>
-<body >
-
-<header >
-
-    <h1 style="margin-top:auto;margin-bottom:auto;padding:10px">Ion Mateus 2 </h1>
-
-    <div id="menuLinks">
-
-        <a id="headLink" href="#">Home</a>
-        <a id="headLink" href="./resume.html">Resume</a>
-        <a id="headLink" href="#Projects">Projects</a>
-
-        <!--<select id="others">
-            <option value="">Others</option>
-            <option value=""><a href="./index.html">Home</a></option>
-            <option value=""><a href="./index.html#about">About</a></option>
-            <option value=""><a href="#">Projects</a></option>
-            <option value=""><a href="#">Resume</a></option>
-        </select>-->
-
-        <button id="changeTheme" onclick="setTheme()">
-            <img id="themeIcon" src="./images/darkIcon.png" alt="">
-        </button>
-
-        
-        
-    </div>
-
-    <div id="divMoreOptions">
-        <button onclick="ShowMoreOptions()" id="moreOptions"><p style="color:var(--dark-grey);font-size:30px">=</p></button>
-    </div>
-
-    <div id="moreOptionsDiv" onclick="HideMoreOptions()">
-        
-        <a id="headLink" href="#">Home</a>
-        <a id="headLink" href="./resume.html">Resume</a>
-        <a id="headLink" href="#Projects">Projects</a>
-        <button id="changeTheme" onclick="setTheme()">
-            <img id="themeIcon" src="./images/lightIcon.png" alt="">
-        </button>
-
-    </div>
+<body>
 
 
-
-    
-<div id="cookiesDiv" style="display:none">
-    <h1 style="color:var(--principal-dark)">Do you want some... Cookies?!</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam nesciunt molestiae commodi, delectus ipsam, alias repudiandae ea sequi ad fugiat modi, voluptatum in beatae magni error sunt. Deleniti, minima numquam!</p>
-
-    <button onclick="DeclineCookies()">Recusar</button>
-    <button onclick="createCookies()">Aceitar</button>
-</div>
-
-</header>
-
-
+<div id="header"></div>
 
 <div id="cover">
 
@@ -158,12 +110,7 @@
 
 </div>
 
-<footer>
-
-    <h1>Footer</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis unde in quo reprehenderit odit ab sit ipsa nisi porro atque aut, repudiandae debitis illo optio nemo aspernatur magni ipsum placeat!</p>
-
-</footer>
+<div id="footer"></div>
     
 </body>
 </html>

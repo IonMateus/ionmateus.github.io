@@ -13,12 +13,16 @@ html {
 }
 
 header{
-    top: 0;
-    position: sticky;
+    
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 0px;
+}
+
+#header{
+    top: 0;
+    position: sticky;
 }
 
 #social-media{

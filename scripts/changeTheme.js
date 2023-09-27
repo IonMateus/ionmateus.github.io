@@ -26,7 +26,7 @@ function setTheme(){
     }
 }
 
-function setLightTheme() {
+function setLightTheme(){
     document.documentElement.style.setProperty('--principal-color', '#10395C');
     document.documentElement.style.setProperty('--principal-dark', '#1E72B9');
     document.documentElement.style.setProperty('--dark', '#000000');
@@ -34,7 +34,7 @@ function setLightTheme() {
     document.documentElement.style.setProperty('--light-grey', '#212121'); 
     document.documentElement.style.setProperty('--dark-grey', '#e8e8e8');
 
-    document.getElementById("themeIcon").src="./images/darkIcon.png"
+    document.getElementById("themeIcon").src= "./images/darkIcon.png"
 
     //document.getElementById("gitLink").src="./images/darkGitIcon.png"
     //document.getElementById("cvLink").src="./images/darkCvIcon.png"
@@ -42,7 +42,7 @@ function setLightTheme() {
     SetCookies(false)
 }
 
-function setDarkTheme() {
+function setDarkTheme(){
     document.documentElement.style.setProperty('--principal-color', '#1E72B9');
     document.documentElement.style.setProperty('--principal-dark', '#10395C');
     document.documentElement.style.setProperty('--dark', '#c0c0c0');
@@ -50,7 +50,7 @@ function setDarkTheme() {
     document.documentElement.style.setProperty('--light-grey', '#e8e8e8'); 
     document.documentElement.style.setProperty('--dark-grey', '#212121');
 
-    document.getElementById("themeIcon").src="./images/lightIcon.png"
+    document.getElementById("themeIcon").src= "./images/darkIcon.png"
 
     //document.getElementById("gitLink").src="./images/lightGitIcon.png"
     //document.getElementById("cvLink").src="./images/lightCvIcon.png"
