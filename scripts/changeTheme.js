@@ -1,30 +1,19 @@
 
+var variavelAdquirida = JSON.parse(localStorage.getItem('themeKey'));
+let isDarkTheme = false;
+if(isDarkTheme = variavelAdquirida[0].isDarkTheme){}
 
-window.onload = function(){
-
-    if(localStorage.getItem("cookies")){
-
-    var themeOption = JSON.parse(localStorage.getItem('themeOption'));
-
-    themeOption.forEach((item) => {
-        isDarkTheme = item
-        setTheme()
-    });
-    }
-
-}
-
-let isDarkTheme = true;
-
+setTheme();
 function setTheme(){
     if(isDarkTheme){
         setDarkTheme();
         isDarkTheme = false
     }else{
-        setLightTheme();
+        setLightTheme()
         isDarkTheme = true
     }
 }
+
 
 function setLightTheme(){
     document.documentElement.style.setProperty('--principal-color', '#10395C');
@@ -34,12 +23,12 @@ function setLightTheme(){
     document.documentElement.style.setProperty('--light-grey', '#212121'); 
     document.documentElement.style.setProperty('--dark-grey', '#e8e8e8');
 
-    document.getElementById("themeIcon").src= "./images/darkIcon.png"
+    document.getElementById("themeIcon").src= "../images/darkIcon.png"
 
-    //document.getElementById("gitLink").src="./images/darkGitIcon.png"
-    //document.getElementById("cvLink").src="./images/darkCvIcon.png"
-
-    SetCookies(false)
+    let theme = JSON.parse(localStorage.getItem('themeKey') || '[]');
+    var themeArray = {isDarkTheme: false,};
+    theme[0] = themeArray
+    localStorage.setItem('themeKey', JSON.stringify(theme));
 }
 
 function setDarkTheme(){
@@ -50,16 +39,11 @@ function setDarkTheme(){
     document.documentElement.style.setProperty('--light-grey', '#e8e8e8'); 
     document.documentElement.style.setProperty('--dark-grey', '#212121');
 
-    document.getElementById("themeIcon").src= "./images/darkIcon.png"
+    document.getElementById("themeIcon").src= "../images/lightIcon.png"
 
-    //document.getElementById("gitLink").src="./images/lightGitIcon.png"
-    //document.getElementById("cvLink").src="./images/lightCvIcon.png"
-
-    SetCookies(true)
+    let theme = JSON.parse(localStorage.getItem('themeKey') || '[]');
+    var themeArray = {isDarkTheme: true,};
+    theme[0] = themeArray
+    localStorage.setItem('themeKey', JSON.stringify(theme));
 }
 
-function SetCookies(bool){
-
-    localStorage.setItem('themeOption', JSON.stringify(bool));
-
-}

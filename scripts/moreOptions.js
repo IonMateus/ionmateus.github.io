@@ -18,3 +18,7 @@ function HideMoreOptions(){
     element.style.display = "none"
     isHide = true
 }
+
+
+// var element = document.getElementById("myDIV");
+//element.classList.toggle("mystyle");

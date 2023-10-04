@@ -101,14 +101,3 @@ footer{
     margin: 20px;
     padding: 10px;
 }
-
-#cookiesDiv{
-    width: 200px;
-    position: absolute;
-    border-radius: 10px;
-    padding: 15px;
-    margin: 10px;
-}#cookiesDiv button{
-    margin: 15px;
-    padding: 10px;
-}

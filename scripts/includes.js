@@ -1,9 +1,6 @@
 
-window.onload = function(){
-    LoadHeader()
-    LoadFooter()
-}
-
+LoadHeader()
+LoadFooter()
 
 function LoadFooter(){
 

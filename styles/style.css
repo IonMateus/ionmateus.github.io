@@ -79,7 +79,6 @@ header{
     transition: all 0.3s ease;
     justify-content: center;
     transition: all 0.2s ease;
-
 }
 
 #moreOptions:hover{
@@ -103,6 +102,10 @@ footer *{
 
 #moreOptionsDiv *{
     color: var(--dark-grey);
+}
+
+.moreOptionsDiv{
+    
 }
 
 #moreOptionsDiv #changeTheme{
@@ -151,19 +154,7 @@ a{
     color: var(--light-grey);
 }
 
-#cookiesDiv{
-    background-color: var(--light-grey);
-}#cookiesDiv h1{color: var(--principal-color);}
-#cookiesDiv p{color: var(--dark-grey);}#cookiesDiv button{
-    border-radius: 10px;
-    border: 0px solid;
-    background-color: var(--dark-grey);
-    color: var(--light);
-    transition: all 0.2s ease;
-    font-size: 15px;
-}#cookiesDiv button:hover{scale: 1.2;}
-#cookiesDiv button:active{scale: 0.9;}
-
 button,a:hover{
     cursor: pointer;
 }
+

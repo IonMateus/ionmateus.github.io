@@ -24,10 +24,7 @@ teste.push(arrrayComDados);
 
 localStorage.setItem('nomeDaChave', JSON.stringify(teste));
 
-
-
-
-
+------
 
 var variavelAdquirida = JSON.parse(localStorage.getItem('nomeDaChave'));
 
