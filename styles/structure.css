@@ -101,3 +101,60 @@ footer{
     margin: 20px;
     padding: 10px;
 }
+
+.project .lenguages{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 0px;
+    box-shadow: none;
+}
+
+.project .lenguages img{
+    height: 30px;
+    margin: 10px;
+    background-color: var(--dark-grey);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+
+    margin: 40px;
+}
+  
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+  
+  .flip-card:active .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
