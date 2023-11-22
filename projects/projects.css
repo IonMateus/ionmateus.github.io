@@ -1,0 +1,15 @@
+
+#projectsDiv{
+    margin: var(--margin);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#project{
+    border: 5px solid var(--color1);
+    border-radius: 20px;
+    width: 300px;
+    height: 450px;
+    margin: var(--margin);
+}
