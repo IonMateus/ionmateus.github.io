@@ -29,7 +29,7 @@ header{
 }header a:hover{text-decoration: underline;}
 
 #hero{
-    margin-top: 150px;
+    margin-top: calc(var(--margin)*2);
     margin-right: calc(var(--margin)*3);
     margin-left: calc(var(--margin)*3);
 }#hero p, h2{font-size: var(--normal-text-size); color: var(--color1);}
@@ -38,7 +38,7 @@ header{
 #hero button{
     width: 150px;
     height: 80px;
-    margin: 50px;
+    margin: var(--margin);
     background-color: var(--color1);
     color: var(--color2);
     font-size: var(--normal-text-size);

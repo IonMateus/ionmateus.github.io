@@ -1,0 +1,28 @@
+
+#othersLinks{
+    margin: var(--margin);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#othersLinks button{
+    margin: calc(var(--margin)/2);
+    width: 70px;
+    height: 70px;
+    border: 0px solid;
+    border-radius: 100%;
+    background-color: var(--color1);
+    transition: all 0.2s ease;
+    border: 2px solid var(--color1);
+}#othersLinks button:hover{
+    box-shadow: 0px 10px 0px black;
+    transform: translateY(-10px);
+    border: 2px solid var(--color2);
+}#othersLinks button:active{
+    box-shadow: 0px 0px 0px black;
+    transform: translateY(10px);
+}#othersLinks img{
+    width: 45px;
+    filter: brightness(0) invert(1);
+}
