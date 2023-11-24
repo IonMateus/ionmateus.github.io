@@ -20,12 +20,17 @@ body{
 
 header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    border-bottom: 2px solid var(--color1);
+    position: sticky;
+    top: 0px;
+    background-color: var(--color2);
 }header a{
     color: var(--color1);
     margin-inline: 50px;
     font-size: var(--normal-text-size);
-    margin-top: var(--margin);
+    margin: calc(var(--margin)*3/4);
 }header a:hover{text-decoration: underline;}
 
 #hero{
