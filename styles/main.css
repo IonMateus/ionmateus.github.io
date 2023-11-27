@@ -2,8 +2,12 @@
 :root{
     --color1:#000;
     --color2:#fff;
-    --normal-text-size: 30px;
-    --margin:50px;
+    --normal-text-size: 25px;
+    --margin:40px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
 }
 
 *{

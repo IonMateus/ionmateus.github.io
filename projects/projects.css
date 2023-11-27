@@ -1,6 +1,6 @@
 
 #projectsDiv{
-    margin: var(--margin);
+    margin-inline: calc(var(--margin)*2);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -9,7 +9,15 @@
 #project{
     border: 5px solid var(--color1);
     border-radius: 20px;
-    width: 300px;
-    height: 450px;
+    width: 100%;
+    height: 350px;
     margin: var(--margin);
+}#project img{
+    height: 100%;
+}#project h1{
+    position:absolute;
+    margin: 10px;
+}#project p{
+    position:absolute;
+    margin: 10px;
 }
