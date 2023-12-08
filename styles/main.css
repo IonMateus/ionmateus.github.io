@@ -2,6 +2,7 @@
 :root{
     --color1:#000;
     --color2:#fff;
+    --accent-color:#AA0D2D;
     --normal-text-size: 25px;
     --margin:40px;
 }
@@ -17,6 +18,8 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+p,a{font-weight: 600;}
+
 body{
     text-align: center;
     background-color: var(--color2);
@@ -26,16 +29,16 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border-bottom: 2px solid var(--color1);
+    background-color: var(--accent-color);
     position: sticky;
     top: 0px;
-    background-color: var(--color2);
 }header a{
     color: var(--color1);
     margin-inline: 50px;
     font-size: var(--normal-text-size);
     margin: calc(var(--margin)*3/4);
-}header a:hover{text-decoration: underline;}
+    transition: all 0.2s ease;
+}header a:hover{color: var(--color2);}
 
 #hero{
     margin-top: calc(var(--margin)*2);
@@ -45,22 +48,23 @@ header{
 #hero h1{font-size: calc(var(--normal-text-size)*3); color:var(--color1);}
 
 #hero button{
-    width: 150px;
+    font-weight: 600;
     height: 80px;
     margin: var(--margin);
-    background-color: var(--color1);
-    color: var(--color2);
+    padding-inline: 20px;
+    background-color: var(--accent-color);
+    color: var(--color1);
     font-size: var(--normal-text-size);
     border:2px solid var(--color2);
     border-radius: 20px;
     transition: all 0.2s ease;
-    box-shadow: 0px 10px 0px var(--color1);
+    box-shadow: 0px 10px 0px var(--accent-color);
 }#hero button:hover{
     transform: translateY(-10px);
     cursor: pointer
 }#hero button:active{
     transform: translateY(10px);
-    box-shadow: 0px 0px 0px var(--color1);
+    box-shadow: 0px 0px 0px var(--accent-color);
 }
 
 
@@ -68,7 +72,7 @@ header{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: var(--color1);
+    background-color: var(--accent-color);
     border: 0px solid;
     position: fixed;
     bottom: var(--margin);
