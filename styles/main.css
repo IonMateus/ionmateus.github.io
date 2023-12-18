@@ -2,7 +2,6 @@
 :root{
     --color1:#000;
     --color2:#fff;
-    --accent-color:#AA0D2D;
     --normal-text-size: 25px;
     --margin:40px;
 }
@@ -29,7 +28,8 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: var(--accent-color);
+    background-color: var(--color2);
+    box-shadow: 0px 0px 10px var(--color1);
     position: sticky;
     top: 0px;
 }header a{
@@ -38,7 +38,7 @@ header{
     font-size: var(--normal-text-size);
     margin: calc(var(--margin)*3/4);
     transition: all 0.2s ease;
-}header a:hover{color: var(--color2);}
+}header a:hover{text-decoration: underline;}
 
 #hero{
     margin-top: calc(var(--margin)*2);
@@ -52,13 +52,13 @@ header{
     height: 80px;
     margin: var(--margin);
     padding-inline: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--color2);
     color: var(--color1);
     font-size: var(--normal-text-size);
-    border:2px solid var(--color2);
+    border:2px solid var(--color1);
     border-radius: 20px;
     transition: all 0.2s ease;
-    box-shadow: 0px 10px 0px var(--accent-color);
+    box-shadow: 0px 10px 0px var(--color1);
 }#hero button:hover{
     transform: translateY(-10px);
     cursor: pointer
@@ -72,7 +72,7 @@ header{
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    background-color: var(--accent-color);
+    background-color: var(--color1);
     border: 0px solid;
     position: fixed;
     bottom: var(--margin);

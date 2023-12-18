@@ -1,3 +1,5 @@
+let black = "#000"
+let white = "#fff"
 
 window.onload = function(){
     variavelAdquirida = JSON.parse(localStorage.getItem('themeKey'));
@@ -9,12 +11,12 @@ window.onload = function(){
 
 function changeTheme() {
     var theme = getComputedStyle(document.documentElement).getPropertyValue('--color1').trim(); 
-    if(theme == "#fff"){darkTheme()}else{lightTheme()}
+    if(theme == white){darkTheme()}else{lightTheme()}
 }
 
 function darkTheme() {
-    document.documentElement.style.setProperty('--color1', '#000');
-    document.documentElement.style.setProperty('--color2', '#fff');
+    document.documentElement.style.setProperty('--color1', black);
+    document.documentElement.style.setProperty('--color2', white);
 
     let theme = JSON.parse(localStorage.getItem('themeKey') || '[]');
     var themeArray = {isDarkTheme: true,};
@@ -23,8 +25,8 @@ function darkTheme() {
 }
 
 function lightTheme() {
-    document.documentElement.style.setProperty('--color1', '#fff');
-    document.documentElement.style.setProperty('--color2', '#000');
+    document.documentElement.style.setProperty('--color1', white);
+    document.documentElement.style.setProperty('--color2', black);
 
     let theme = JSON.parse(localStorage.getItem('themeKey') || '[]');
     var themeArray = {isDarkTheme: false,};

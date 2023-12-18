@@ -2,10 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Card Flip with Text</title>
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="./projects.css">
     <script src="../scripts/changeTheme.js"></script>
@@ -18,45 +16,58 @@
         <a href="../about/">About</a>
         <a href="../others/">Others</a>
     </header>
-    <button id="btnTheme" onclick="changeTheme()"></button>
+    <button id="btnTheme" onclick="changeTheme()" style="z-index: 1;"></button>
 
-    <div id="projectsDiv">
+    <div class="flip-card-container">
 
-        <div id="project">
-            <h1>CodeDrafts</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam reiciendis ratione deserunt quas, veritatis nostrum molestiae? Illo quia possimus, error sed reiciendis ut nostrum corporis aliquid aut praesentium eaque molestiae!</p>
-            <img src="https://codedrafts-5as0.onrender.com/images/coding.png" alt="">
-            <a href="https://codedrafts-5as0.onrender.com/">WebSite Here</a>
-            <a href="https://github.com/cc23135/codedrafts">Coding Here</a>
+
+       
+
+        <div class="flip-card">
+            <div class="flip-card-inner">
+
+                <div class="flip-card-front" style="background-image: url(https://raw.githubusercontent.com/ArthurGamaJorge/codedrafts/main/Evolu%C3%A7%C3%A3o/3-userPage.png);"></div>
+
+                <div class="flip-card-back">
+                    <div style="display: flex;">
+                    <img src="https://raw.githubusercontent.com/ArthurGamaJorge/codedrafts/main/public/images/logoIconWithoutBackground.png">
+                    <h1>CodeDrafts</h1> 
+                    </div>
+
+                    <p>
+                        CodeDrafts is a functional social network created as a professional practice project. It allows users to register and engage with the platform through posts and comments.
+                    </p>
+                    
+                    <div style="display: flex;">
+                    <button id="redirectBtn" onclick="window.open('https://codedrafts-5as0.onrender.com/')">
+                        <img src="https://raw.githubusercontent.com/ArthurGamaJorge/codedrafts/main/public/images/logoIconWithoutBackground.png">
+                        <p>WebSite</p>
+                    </button>
+             
+                    <button id="redirectBtn" onclick="window.open('https://github.com/ArthurGamaJorge/codedrafts')">
+                        <img src="https://raw.githubusercontent.com/ArthurGamaJorge/codedrafts/main/public/images/logoIconWithoutBackground.png">
+                        <p>Code</p>
+                    </button>
+                    </div>
+
+                    <div id="redirectBtn" style="display: flex;">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" />
+                    </div>
+
+                </div>
+
+            </div>
         </div>
 
-        <div id="project">
-            
-        </div>
-
-        <div id="project">
-            
-        </div>
-
-        <div id="project">
-            
-        </div>
-
-        <div id="project">
-            
-        </div>
-
-        <div id="project">
-            
-        </div>
-
-        <div id="project">
-            
-        </div>
+       
 
     </div>
-
-
 
 </body>
 </html>

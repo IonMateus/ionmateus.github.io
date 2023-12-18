@@ -1,0 +1,13 @@
+
+*{
+    color: var(--color1);
+    
+}
+
+h1{
+    font-size: calc(var(--normal-text-size)*2);
+}
+
+p{
+    font-size: var(--normal-text-size);
+}
