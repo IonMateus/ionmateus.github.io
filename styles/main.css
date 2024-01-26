@@ -1,86 +1,47 @@
-
 :root{
-    --color1:#000;
-    --color2:#fff;
-    --normal-text-size: 25px;
-    --margin:40px;
-}
-
-::-webkit-scrollbar{
-    width: 0px;
+    --black:#121212;
+    --white:#ffffff;
 }
 
 *{
-    padding: 0px;
     margin: 0px;
-    text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
 }
 
-p,a{font-weight: 600;}
-
 body{
-    text-align: center;
-    background-color: var(--color2);
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    background-image: url(../images/heroBg.png);
+    background-repeat: repeat;
+    background-size:unset;
 }
 
 header{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: var(--color2);
-    box-shadow: 0px 0px 10px var(--color1);
-    position: sticky;
-    top: 0px;
-}header a{
-    color: var(--color1);
-    margin-inline: 50px;
-    font-size: var(--normal-text-size);
-    margin: calc(var(--margin)*3/4);
-    transition: all 0.2s ease;
-}header a:hover{text-decoration: underline;}
-
-#hero{
-    margin-top: calc(var(--margin)*2);
-    margin-right: calc(var(--margin)*3);
-    margin-left: calc(var(--margin)*3);
-}#hero p, h2{font-size: var(--normal-text-size); color: var(--color1);}
-#hero h1{font-size: calc(var(--normal-text-size)*3); color:var(--color1);}
-
-#hero button{
-    font-weight: 600;
-    height: 80px;
-    margin: var(--margin);
-    padding-inline: 20px;
-    background-color: var(--color2);
-    color: var(--color1);
-    font-size: var(--normal-text-size);
-    border:2px solid var(--color1);
-    border-radius: 20px;
-    transition: all 0.2s ease;
-    box-shadow: 0px 10px 0px var(--color1);
-}#hero button:hover{
-    transform: translateY(-10px);
-    cursor: pointer
-}#hero button:active{
-    transform: translateY(10px);
-    box-shadow: 0px 0px 0px var(--accent-color);
+    justify-content: space-between;
+    margin: 30px;
 }
-
-
-#btnTheme{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    background-color: var(--color1);
-    border: 0px solid;
-    position: fixed;
-    bottom: var(--margin);
-    left: var(--margin);
-    transition: all 0.2s ease;
-}#btnTheme:hover{scale: 1.5;}#btnTheme:active{scale: 0.9;}
-
-
-
-
-
+header a {
+    color: var(--white);
+    text-decoration: none;
+    margin-inline: 10px;
+    font-size: 20px;
+    position: relative;
+}
+header a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px; 
+    background-color: var(--white);
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0); 
+    transform-origin: left; 
+    transition: transform 0.3s ease; 
+}
+header a:hover::before {
+    transform: scaleX(1);
+    transform-origin: right; 
+}

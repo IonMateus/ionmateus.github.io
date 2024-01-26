@@ -1,13 +1,9 @@
 
-*{
-    color: var(--color1);
-    
+
+body{
+    text-align: center;
 }
 
 h1{
-    font-size: calc(var(--normal-text-size)*2);
-}
-
-p{
-    font-size: var(--normal-text-size);
+    margin-top: 50px;
 }
