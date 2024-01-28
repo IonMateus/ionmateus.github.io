@@ -31,12 +31,14 @@
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/main.css">
 
+    <script src="./scripts/main.js"></script>
+
 </head>
 <body>
 
     <header>
         <h2>Ion Mateus</h2>
-        <div>
+        <div id="headerLinks">
             <a href="./">Home</a>
             <a href="./projects/">Projects</a>
             <a href="./about/">About</a>
@@ -54,32 +56,12 @@
         </div>
     </div>
 
-    <!--
+
     <div id="mediaIcons">
-        <a href=""><img src="./images/heroBg.png" alt=""></a>
-        <a href=""><img src="./images/heroBg.png" alt=""></a>
-        <a href=""><img src="./images/heroBg.png" alt=""></a>
+        <a href="https://github.com/ionmateus"  target="_blank"><img src="./images/gitHubIcon.png"></a>
+        <a href="https://leetcode.com/ionmateus/"  target="_blank"><img src="./images/leetCodeIcon.png"></a>
+        <a href="https://www.instagram.com/"  target="_blank"><img src="./images/instaIcon.png"></a>
     </div>
-    -->
-
-
-
-    <script>
-
-        function changeTitle() {
-            var title = document.title;
-            var name = "Ion Mateus"
-            var arr = ["Hi","Come back!","Im Ion","Stop!","(0_0)","Did you know...","1+1=2","AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA","You win. 🏆","Undefined"]
-
-            document.title = name + " | " + arr[parseInt(Math.random()*10)]
-            
-          }
-          
-          setInterval(changeTitle, parseInt(Math.random()*10000));
-
-    </script>
-
-
 
  
 </body>

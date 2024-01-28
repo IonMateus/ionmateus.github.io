@@ -38,6 +38,7 @@ p{
 }
 
 #mediaIcons {
+    margin: 15px;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -46,6 +47,9 @@ p{
 }
 #mediaIcons img {
     width: 30px;
-    margin-right: 10px; 
-    margin: 15px;
+    margin: 10px;
+    transition: all 0.2s ease;
+}
+#mediaIcons img:hover{
+    width: 40px;
 }

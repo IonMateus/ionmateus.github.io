@@ -45,3 +45,28 @@ header a:hover::before {
     transform: scaleX(1);
     transform-origin: right; 
 }
+
+.newHeaderLinks{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid var(--white);
+    box-shadow: 0px 0px 10px var(--white);
+    z-index: 1;
+}
+.newHeaderLinks a{
+   font-size: 40px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    h2{ 
+    }
+}
