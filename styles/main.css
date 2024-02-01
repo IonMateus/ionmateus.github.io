@@ -22,6 +22,9 @@ header{
     justify-content: space-between;
     margin: 30px;
 }
+header h2{
+    cursor: pointer;
+}
 header a {
     color: var(--white);
     text-decoration: none;
@@ -46,27 +49,43 @@ header a:hover::before {
     transform-origin: right; 
 }
 
-.newHeaderLinks{
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--black);
-    padding: 20px;
+.headerMoreOptions{
+    width: 30px;
+    height: 30px;
     border-radius: 10px;
     border: 2px solid var(--white);
-    box-shadow: 0px 0px 10px var(--white);
-    z-index: 1;
+    background-color: var(--black);
+    color: var(--white);
+    display: none;
+    transition: all 0.2s ease;
+    font-size: 20px;
 }
-.newHeaderLinks a{
-   font-size: 40px;
+.headerMoreOptions:hover{
+    transform: rotateZ(90deg);
+    background-color: var(--white);
+    color: var(--black);
 }
-
 
 
 
 @media (max-width: 600px) {
-    h2{ 
+    #headerLinks{
+        position: fixed;
+        top: 30px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        background-color: var(--black);
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid var(--white);
+        box-shadow: 0px 0px 10px var(--white);
+        z-index: 1;
+        display: none;
     }
+    
+    .headerMoreOptions{
+        display:block;
+    }
+    
 }

@@ -9,17 +9,21 @@
 
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="./projects.css">
+
+    <script src="../scripts/main.js"></script>
 </head>
 <body>
 
     <header>
-        <h2>Ion Mateus</h2>
-        <div>
+        <h2 onclick="window.location.href='../'">Ion Mateus</h2>
+        <div id="headerLinks">
+            <button id="CloseHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
+            <br>
             <a href="../">Home</a>
             <a href="./">Projects</a>
             <a href="../about/">About</a>
-            <a href="./">Others</a>
         </div>
+        <button id="OpenHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
     </header>
 
     <div class="flip-card-container">

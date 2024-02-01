@@ -34,16 +34,17 @@
     <script src="./scripts/main.js"></script>
 
 </head>
-<body>
 
     <header>
-        <h2>Ion Mateus</h2>
+        <h2 onclick="window.location.href='./'">Ion Mateus</h2>
         <div id="headerLinks">
+            <button id="CloseHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
+            <br>
             <a href="./">Home</a>
             <a href="./projects/">Projects</a>
             <a href="./about/">About</a>
-            <a href="./">Others</a>
         </div>
+        <button id="OpenHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
     </header>
 
     <div id="hero">
@@ -51,8 +52,7 @@
         <i>Programming Student</i>
         <br><br>
         <div id="heroBtnDiv">
-            <button id="heroBtn">Resume</button>
-            <button id="heroBtn">Projects</button>
+            <button id="heroBtn" onclick="window.location.href='./projects/'">Projects</button>
         </div>
     </div>
 
