@@ -28,42 +28,46 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
-    <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/main.css">
-
-    <script src="./scripts/main.js"></script>
-
 </head>
+<body>
 
-    <header>
-        <h2 onclick="window.location.href='./'">Ion Mateus</h2>
-        <div id="headerLinks">
-            <button id="CloseHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
-            <br>
-            <a href="./">Home</a>
-            <a href="./projects/">Projects</a>
-            <a href="./about/">About</a>
-        </div>
-        <button id="OpenHeaderMoreOptions" class='headerMoreOptions' onclick="ChangeHeaderMoreOptions()">+</button>
-    </header>
-
-    <div id="hero">
+   <!-- <header>
         <h1>Ion Mateus</h1>
-        <i>Programming Student</i>
-        <br><br>
-        <div id="heroBtnDiv">
-            <button id="heroBtn" onclick="window.location.href='./projects/'">Projects</button>
+        <div id="headerLinks">
+            <a class="hoverable" href="">Home</a>
+            <a class="hoverable" href="">Projects</a>
         </div>
+        <div id="headerSocial">
+            <img src="./images/gitHubIcon.png" alt="">
+            <img src="./images/gitHubIcon.png" alt="">
+        </div>
+    </header>
+-->
+    <div class="hero" style="height: 100vh;">
+        <h1>Ion Mateus</h1>
+        <p>Lorem ispum dolor sit amet !</p>
+        <button onclick="changeTheme()" class="hoverable" id="btnTema">Tema</button>
     </div>
-
-
-    <div id="mediaIcons">
-        <a href="https://github.com/ionmateus"  target="_blank"><img src="./images/gitHubIcon.png"></a>
-        <a href="https://leetcode.com/ionmateus/"  target="_blank"><img src="./images/leetCodeIcon.png"></a>
-        <a href="https://www.instagram.com/"  target="_blank"><img src="./images/instaIcon.png"></a>
+        
+    
+    
+    
+    
+    
+<div class="cursor">
+    <div class="cursor__ball cursor__ball--big">
+    <svg height="30" width="30">
+        <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+    </svg>
     </div>
+    <div class="cursor__ball cursor__ball--small cursor__ball--small-black"></div>
+    <div class="cursor__ball cursor__ball--small cursor__ball--small-white"></div>
+</div>
 
- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+<script src="./scripts/main.js"></script>
+
 </body>
 </html>
   

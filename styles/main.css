@@ -1,91 +1,108 @@
 :root{
-    --black:#121212;
-    --white:#ffffff;
+    --color1: #fff;
+    --color2: #000;
 }
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
+body {
+    margin: 0;
     font-family: 'Nunito', sans-serif;
-    background-color: var(--black);
-    color: var(--white);
-    background-image: url(../images/heroBg.png);
-    background-repeat: repeat;
-    background-size:unset;
+    overflow: hidden;
+    cursor: none;
+    background-color: var(--color2);
+    color: var(--color1);
 }
+.hoverable:hover {
+    cursor: none;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color2);
+    color: var(--color1);
+}
+
+.cursor {
+pointer-events: none;
+}
+
+.cursor__ball {
+position: fixed;
+top: 0;
+left: 0;
+mix-blend-mode: difference;
+z-index: 1000;
+}
+
+.cursor__ball circle {
+fill: var(--color2);
+}
+
+.cursor__ball--big circle {
+fill: white;
+}
+
+.cursor__ball--small {
+width: 10px;
+height: 10px;
+border-radius: 50%;
+}
+
+.cursor__ball--small-black {
+background-color: var(--color2);
+}
+
+.cursor__ball--small-white {
+background-color: var(--color1);
+}
+
+#btnTema{
+margin: 20px;
+width: 100px;
+height: 40px;
+border-radius: 10px;
+border: 0px solid;
+background-color: var(--color1);
+transition: all 0.2s ease;
+color: var(--color2);
+}
+#btnTema:hover{
+box-shadow: 0px 0px 10px var(--color1);
+}
+
+a{color: var(--color1);}
 
 header{
     display: flex;
-    justify-content: space-between;
-    margin: 30px;
-}
-header h2{
-    cursor: pointer;
-}
-header a {
-    color: var(--white);
-    text-decoration: none;
-    margin-inline: 10px;
-    font-size: 20px;
-    position: relative;
-}
-header a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px; 
-    background-color: var(--white);
-    bottom: 0;
-    left: 0;
-    transform: scaleX(0); 
-    transform-origin: left; 
-    transition: transform 0.3s ease; 
-}
-header a:hover::before {
-    transform: scaleX(1);
-    transform-origin: right; 
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.headerMoreOptions{
-    width: 30px;
-    height: 30px;
-    border-radius: 10px;
-    border: 2px solid var(--white);
-    background-color: var(--black);
-    color: var(--white);
-    display: none;
-    transition: all 0.2s ease;
-    font-size: 20px;
-}
-.headerMoreOptions:hover{
-    transform: rotateZ(90deg);
-    background-color: var(--white);
-    color: var(--black);
+header h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
 }
 
+#headerLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+}
 
+#headerSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+}
 
-@media (max-width: 600px) {
-    #headerLinks{
-        position: fixed;
-        top: 30px;
-        right: 30px;
-        display: flex;
-        flex-direction: column;
-        background-color: var(--black);
-        padding: 20px;
-        border-radius: 10px;
-        border: 2px solid var(--white);
-        box-shadow: 0px 0px 10px var(--white);
-        z-index: 1;
-        display: none;
-    }
-    
-    .headerMoreOptions{
-        display:block;
-    }
-    
+#headerSocial img{
+    width: 20px;
 }
