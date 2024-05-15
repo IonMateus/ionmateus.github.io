@@ -31,7 +31,21 @@ body {
     border: 1px solid var(--color1);
 }
 
+header{
+    position: sticky;
+    top: 0px;
+    background-color: var(--color2);
+    padding: 15px;
+    z-index: 2;
+    box-shadow: 0px 0px 20px var(--color2);
+    flex-wrap: wrap;
+}
 
+header a{
+   text-decoration: underline 1px;
+   font-size: 20px;
+   color: var(--color1);
+}
 
 .hero{
     display: flex;
@@ -41,6 +55,28 @@ body {
     background: var(--color2);
     color: var(--color1);
 }
+
+
+.contentDiv{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cursor {
 pointer-events: none;
