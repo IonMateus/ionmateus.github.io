@@ -4,70 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    
-        <meta name="creator" content="Ion Mateus">
-        <meta name="description" content="Ion Mateus' Website.">
-        
-        <meta name="google-site-verification" content="K9Yel8W_i-lbF5V3sZaOs6fHDiT9E3qEryAkoN9DeZA">
-
-        <meta property="og:description" content="Ion Mateus's WebSite." />
-    
-        <!--
-        <meta property="og:site_name" content="Ion Mateus">
-        <meta property="og:url" content="https://www.ionmateus.github.io/">
-        <meta property="og:type" content="website">
-        <meta property="og:locale" content="pt_BR">
-        <meta property="og:image" content="./images/myIcon.png">
-        <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="63">
-        <meta property="og:image:height" content="70">
-        -->
-
+    <meta name="creator" content="Ion Mateus">
+    <meta name="description" content="Ion Mateus' Website.">
+    <meta name="google-site-verification" content="K9Yel8W_i-lbF5V3sZaOs6fHDiT9E3qEryAkoN9DeZA">
+    <meta property="og:description" content="Ion Mateus's WebSite." />
     <title>Ion Mateus</title>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-
-   <!-- <header>
+   <div class="hero" style="height: 100vh;">
         <h1>Ion Mateus</h1>
-        <div id="headerLinks">
-            <a class="hoverable" href="">Home</a>
-            <a class="hoverable" href="">Projects</a>
+        <p><i>Lorem ipsum dolor sit amet!</i></p>
+        <div id="switchTheme">
+            <svg style="margin:10px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            <label style="margin:10px" class="switch hoverable">
+                <input type="checkbox" onchange="changeTheme()">
+                <span class="slider"></span>
+            </label>
+            <svg style="margin: 10px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg> 
         </div>
-        <div id="headerSocial">
-            <img src="./images/gitHubIcon.png" alt="">
-            <img src="./images/gitHubIcon.png" alt="">
-        </div>
-    </header>
--->
-    <div class="hero" style="height: 100vh;">
-        <h1>Ion Mateus</h1>
-        <p>Lorem ispum dolor sit amet !</p>
-        <button onclick="changeTheme()" class="hoverable" id="btnTema">Tema</button>
     </div>
         
+    <!-- Mais conteúdo para tornar a página extensa -->
     
     
-    
-    
-    
-<div class="cursor">
-    <div class="cursor__ball cursor__ball--big">
-    <svg height="30" width="30">
-        <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
-    </svg>
+    <!-- Cursor -->
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
     </div>
-    <div class="cursor__ball cursor__ball--small cursor__ball--small-black"></div>
-    <div class="cursor__ball cursor__ball--small cursor__ball--small-white"></div>
-</div>
+        <div class="cursor__ball cursor__ball--small cursor__ball--small-black"></div>
+        <div class="cursor__ball cursor__ball--small cursor__ball--small-white"></div>
+    </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-<script src="./scripts/main.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
-  

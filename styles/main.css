@@ -3,10 +3,10 @@
     --color2: #000;
 }
 
+
 body {
     margin: 0;
     font-family: 'Nunito', sans-serif;
-    overflow: hidden;
     cursor: none;
     background-color: var(--color2);
     color: var(--color1);
@@ -14,6 +14,23 @@ body {
 .hoverable:hover {
     cursor: none;
 }
+
+.cursor {
+    pointer-events: all; 
+    z-index: 11;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}::-webkit-scrollbar-track {
+    background: var(--color1); 
+}::-webkit-scrollbar-thumb {
+    background: var(--color2);
+    border-radius: 6px; 
+    border: 1px solid var(--color1);
+}
+
 
 
 .hero{
@@ -59,19 +76,6 @@ background-color: var(--color2);
 background-color: var(--color1);
 }
 
-#btnTema{
-margin: 20px;
-width: 100px;
-height: 40px;
-border-radius: 10px;
-border: 0px solid;
-background-color: var(--color1);
-transition: all 0.2s ease;
-color: var(--color2);
-}
-#btnTema:hover{
-box-shadow: 0px 0px 10px var(--color1);
-}
 
 a{color: var(--color1);}
 
@@ -106,3 +110,50 @@ header h1{
 #headerSocial img{
     width: 20px;
 }
+
+
+
+
+
+
+
+#switchTheme{
+    display: flex;
+    justify-content: space-around
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 27px;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color2);
+    transition: .4s;
+    border-radius: 20px;
+    border: 2px solid;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--color1);
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(22px);
+  }

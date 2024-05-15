@@ -12,17 +12,18 @@ for (let i = 0; i < $hoverables.length; i++) {
 
 // Move the cursor
 function onMouseMove(e) {
+  // Use 'window' instead of 'document' for page-relative coordinates
   TweenMax.to($bigBall, .4, {
-    x: e.pageX - 15,
-    y: e.pageY - 15
+    x: e.clientX - 15, // Use 'clientX' instead of 'pageX' for page-relative coordinates
+    y: e.clientY - 15 // Use 'clientY' instead of 'pageY' for page-relative coordinates
   })
   TweenMax.to($smallBallBlack, .0, {
-    x: e.pageX - 5,
-    y: e.pageY - 3
+    x: e.clientX - 5, // Use 'clientX' instead of 'pageX' for page-relative coordinates
+    y: e.clientY - 3 // Use 'clientY' instead of 'pageY' for page-relative coordinates
   })
   TweenMax.to($smallBallWhite, .0, {
-    x: e.pageX - 5,
-    y: e.pageY - 5
+    x: e.clientX - 5, // Use 'clientX' instead of 'pageX' for page-relative coordinates
+    y: e.clientY - 5 // Use 'clientY' instead of 'pageY' for page-relative coordinates
   })
 }
 
@@ -33,7 +34,6 @@ function changeTheme() {
     document.documentElement.style.setProperty('--color1', color2);
     document.documentElement.style.setProperty('--color2', color1);
 }
-
 
 // Hover an element
 function onMouseHover() {
