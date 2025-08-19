@@ -1,0 +1,52 @@
+[
+    {
+        "id": "proj-1",
+        "title": "API de Autenticação com JWT",
+        "shortDescription": "Back-end robusto para gerenciamento de usuários.",
+        "longDescription": "Uma API RESTful completa desenvolvida em Node.js com Express, utilizando JSON Web Tokens (JWT) para autenticação e autorização stateless. O sistema inclui rotas para registro, login, atualização de perfil e rotas protegidas. Senhas são armazenadas de forma segura utilizando bcrypt para hashing. A arquitetura segue as melhores práticas de design de API, com validação de entrada e tratamento de erros centralizado.",
+        "technologies": ["Node.js", "Express", "JWT", "PostgreSQL", "Bcrypt"],
+        "imageUrl": "https://picsum.photos/seed/api/1200/800",
+        "repoUrl": "https://github.com",
+        "liveUrl": "#"
+    },
+    {
+        "id": "proj-2",
+        "title": "Dashboard de Análise de Dados",
+        "shortDescription": "Interface interativa para visualização de métricas.",
+        "longDescription": "Aplicação front-end construída com React e a biblioteca D3.js para criar visualizações de dados dinâmicas e interativas. O dashboard consome dados de uma API externa, exibe gráficos de barras, linhas e pizza, e permite que o usuário filtre os dados por período e categoria em tempo real. O gerenciamento de estado é feito com Redux Toolkit para uma performance otimizada.",
+        "technologies": ["React", "Redux Toolkit", "D3.js", "Styled-Components"],
+        "imageUrl": "https://picsum.photos/seed/dashboard/1200/800",
+        "repoUrl": "https://github.com",
+        "liveUrl": "#"
+    },
+    {
+        "id": "proj-3",
+        "title": "Sistema de Agendamento Online",
+        "shortDescription": "Plataforma full-stack para agendamento de serviços.",
+        "longDescription": "Solução completa que permite a clientes agendarem horários com prestadores de serviço. O back-end, construído em Python com Django, gerencia a disponibilidade de horários e a lógica de negócios. O front-end em Vue.js oferece uma interface reativa para que os usuários visualizem os horários disponíveis e realizem o agendamento de forma intuitiva.",
+        "technologies": ["Vue.js", "Django", "Django REST Framework", "SQLite"],
+        "imageUrl": "https://picsum.photos/seed/booking/1200/800",
+        "repoUrl": "https://github.com",
+        "liveUrl": "#"
+    },
+    {
+        "id": "proj-4",
+        "title": "Web Scraper de Notícias Tech",
+        "shortDescription": "Script automatizado para coleta e consolidação de dados.",
+        "longDescription": "Um script em Python utilizando as bibliotecas `requests` e `BeautifulSoup` para extrair títulos e links das principais notícias de portais de tecnologia. Os dados coletados são processados e armazenados em um arquivo CSV, gerando um relatório diário consolidado.",
+        "technologies": ["Python", "BeautifulSoup", "Requests", "Pandas"],
+        "imageUrl": "https://picsum.photos/seed/scraper/1200/800",
+        "repoUrl": "https://github.com",
+        "liveUrl": null
+    },
+    {
+        "id": "proj-5",
+        "title": "Design System em Figma",
+        "shortDescription": "Biblioteca de componentes UI para consistência de design.",
+        "longDescription": "Criação de um Design System abrangente no Figma, contendo componentes reutilizáveis (botões, inputs, cards), estilos de tipografia, paleta de cores e regras de espaçamento. O objetivo é acelerar o processo de design e desenvolvimento, garantindo consistência visual e de usabilidade em múltiplos projetos.",
+        "technologies": ["Figma", "UI Design", "UX Principles"],
+        "imageUrl": "https://picsum.photos/seed/design/1200/800",
+        "repoUrl": "https://www.figma.com",
+        "liveUrl": null
+    }
+]

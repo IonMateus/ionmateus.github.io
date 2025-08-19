@@ -1,0 +1,31 @@
+[
+    {
+        "id": "proj-1",
+        "title": "AlzCare",
+        "shortDescription": "Aplicativo para auxílio de cuidadores informais de idosos com Alzheimer. Feito em equipe (The Tech Titans).",
+        "longDescription": "AlzCare is a mobile application designed for informal caregivers of elderly people with Alzheimer’s in Brazil. Its primary goal is to provide comprehensive support to these caregivers, offering tools that make their daily responsibilities easier while improving the quality of life for both caregivers and individuals with Alzheimer’s.",
+        "technologies": ["MIT App Inventor", "HTML", "CSS", "JavaScript", "Glitch", "API"],
+        "imageUrl": "https://media.licdn.com/dms/image/v2/D4D2DAQHpvJ-QtgbOsA/profile-treasury-image-shrink_8192_8192/B4DZdK8X6LG8Ag-/0/1749309030553?e=1756252800&v=beta&t=VleUeu2ithCnCLJSU5g-C0EOCKxbaljiNiauBi0DZuQ"
+    },
+    {
+        "id": "proj-2",
+        "title": "PreviDengue - TCC",
+        "shortDescription": "Plataforma composta por IAs de detecção de possíveis focos de dengue e previsão de surtos para auxiliar agentes de saúde. Feito por Arthur, Daniel e Ion.",
+        "longDescription": "PreviDengue",
+        "technologies": ["React", "HTML", "CSS", "JavaScript", "Python", "API", "IA", "YOLO", "LSTM", "Machine Learning"],
+        "imageUrl": "https://previdengue.vercel.app/_next/image?url=%2Ffavicon.ico&w=32&q=75",
+        "repoUrl": "https://github.com/IonMateus/tcc",
+        "liveUrl": "https://previdengue.vercel.app/"
+    },
+    {
+        "id": "proj-3",
+        "title": "IA para Previsão de Evasão Escolar",
+        "shortDescription": "Lorem.",
+        "longDescription": "Lorem.",
+        "technologies": ["Python", "IA", "Random Forest", "XG Boost", "Machine Learning", "Ensemble Learning"],
+        "imageUrl": "https://www.cotil.unicamp.br/wp-content/uploads/2023/04/PIBIC-EM-745x600.jpg",
+        "repoUrl": "https://github.com",
+        "liveUrl": "#"
+    }
+
+]

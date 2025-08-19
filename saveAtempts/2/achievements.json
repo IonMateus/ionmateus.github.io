@@ -1,0 +1,23 @@
+[
+    {
+        "category": "Competição de Programação",
+        "title": "Olimpíada Brasileira de Informática (OBI)",
+        "description": "Participação na modalidade Programação Nível Sênior, resolvendo problemas complexos de lógica e algoritmos sob pressão de tempo.",
+        "period": "2024",
+        "imageUrl": "https://picsum.photos/seed/obi/800/400"
+    },
+    {
+        "category": "Prêmio Acadêmico",
+        "title": "Projeto Destaque da Turma",
+        "description": "Reconhecimento pelo projeto final da disciplina de Engenharia de Software, avaliado com nota máxima pela banca examinadora.",
+        "period": "2025",
+        "imageUrl": "https://picsum.photos/seed/award/800/400"
+    },
+    {
+        "category": "Hackathon",
+        "title": "1º Lugar - Hackathon Interno COTIL",
+        "description": "Desenvolvimento de uma solução de otimização logística em 48 horas, premiada pela eficiência e inovação técnica.",
+        "period": "2025",
+        "imageUrl": "https://picsum.photos/seed/hackathon/800/400"
+    }
+]

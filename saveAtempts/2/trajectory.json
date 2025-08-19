@@ -1,0 +1,33 @@
+{
+    "education": [
+        {
+            "degree": "Técnico em Desenvolvimento de Sistemas",
+            "institution": "Colégio Técnico de Campinas (COTIL - Unicamp)",
+            "period": "2024 - Presente",
+            "description": "Formação intensiva cobrindo algoritmos, arquitetura de software, desenvolvimento full-stack e banco de dados."
+        }
+    ],
+    "research_and_competitions": [
+        {
+            "category": "Iniciação Científica (PIBIC)",
+            "title": "Análise de Performance de Algoritmos de Machine Learning",
+            "description": "Projeto de pesquisa focado em benchmarking de algoritmos de classificação em diferentes datasets.",
+            "period": "2025",
+            "imageUrl": "https://picsum.photos/seed/pibic/800/400"
+        },
+        {
+            "category": "Competição de Programação",
+            "title": "Olimpíada Brasileira de Informática (OBI)",
+            "description": "Participação na modalidade Programação Nível Sênior, resolvendo problemas complexos de lógica e algoritmos.",
+            "period": "2024",
+            "imageUrl": "https://picsum.photos/seed/obi/800/400"
+        },
+        {
+            "category": "Projeto Extracurricular",
+            "title": "Desenvolvimento de App para Gestão de Eventos",
+            "description": "Liderança técnica no desenvolvimento de um aplicativo para gerenciar e divulgar eventos do grêmio estudantil.",
+            "period": "2024 - 2025",
+            "imageUrl": "https://picsum.photos/seed/app/800/400"
+        }
+    ]
+}

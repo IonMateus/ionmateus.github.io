@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="creator" content="Ion Mateus">
+    <meta name="description" content="Ion Mateus' Website.">
+    <meta name="google-site-verification" 
+    content="K9Yel8W_i-lbF5V3sZaOs6fHDiT9E3qEryAkoN9DeZA">
+    <meta property="og:description" content="Ion Mateus's WebSite." />
+    <title>Ion Mateus</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+
+    <header>
+        <a class="hoverable" href="#">Home</a>
+        <a class="hoverable" href="#about">About</a>
+        <a class="hoverable" href="#projects">Projects</a>
+        <a class="hoverable" href="#awards">Awards</a>
+        <a class="hoverable" href="#others">Others</a>
+    </header>
+
+   <div class="hero" style="height: 100vh;">
+        <h1>Ion Mateus</h1>
+        <p><i>Lorem ipsum dolor sit amet!</i></p>
+        <div id="switchTheme">
+            <svg style="margin:10px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            <label style="margin:10px" class="switch hoverable">
+                <input type="checkbox" onchange="changeTheme()">
+                <span class="slider"></span>
+            </label>
+            <svg style="margin: 10px;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--color1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg> 
+        </div>
+        <a href="#" class="simpleBtn hoverable">Resume</a>
+    </div>
+
+    <div id="about" class="contentDiv">
+        <h2>Hello! 👋</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+    </div>
+
+
+
+    <div id="projects" class="contentDiv">
+        <h2>Projects 👩🏻‍💻</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+        
+
+
+    <div class="difficulty-filter" style="display: flex; align-items:center;">
+        <label>Filter by Difficulty:</label>
+        <select id="difficultyFilter">
+            <option value="all">All</option>
+            <option value="1">Easy</option>
+            <option value="2">Intermediate</option>
+            <option value="3">Hard</option>
+        </select>
+    </div> <br><br>
+
+
+        
+        <div id="projectsContent">
+
+
+
+            
+            <div class="card"  data-difficulty="2">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://raw.githubusercontent.com/IonMateus/thehall/main/public/images/create.png">
+                    </div>
+                    <div class="card-back">
+                        <h2>The Hall</h2>
+                        <p>Chat online with as many people as you want. You can create rooms with or without a password. When a room is empty, it is automatically deleted. It is also possible to send .PNG images.</p>
+                        <i><b>HTML | CSS | JS | ExpressJS</b></i> <br>
+
+                        <button onclick="window.open('https://thehall.onrender.com/')" class="hoverable">Site</button>
+                        <button onclick="window.open('https://github.com/IonMateus/thehall')" class="hoverable">Código</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" data-difficulty="1">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://raw.githubusercontent.com/IonMateus/jogo-das-formigas/main/imagesReadme/playing.png">
+                    </div>
+                    <div class="card-back">
+                        <h2>Jogo das Formigas</h2>
+                        <p>Um simples jogo de formigas</p>
+                        <i><b>JS | P5js</b></i> <br>
+
+                        <button onclick="window.open('https://ionmateus.github.io/jogo-das-formigas/')" class="hoverable">Jogo</button>
+                        <button onclick="window.open('https://github.com/IonMateus/jogo-das-formigas')" class="hoverable">Código</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" data-difficulty="1">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://raw.githubusercontent.com/IonMateus/jumping-stars/main/ReadmeImages/initial.png">
+                    </div>
+                    <div class="card-back">
+                        <h2>Jumping Stars</h2>
+                        <p>Gerador de estrelas. Altere os valores pelos inputs para mudar o comportamento das estrelas.</p>
+                        <i><b>HTML | CSS | JS</b></i> <br>
+
+                        <button onclick="window.open('https://ionmateus.github.io/jumping-stars/')" class="hoverable">Site</button>
+                        <button onclick="window.open('https://github.com/IonMateus/jumping-stars')" class="hoverable">Código</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card" data-difficulty="1">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="https://ionmateus.github.io/neptunus/imgs/logo.png">
+                    </div>
+                    <div class="card-back">
+                        <h2>Neptunus</h2>
+                        <p>Our project is an educational website about the importance of the ocean in our lives and for the planet.</p>
+                        <i><b>HTML | CSS | JS</b></i> <br>
+
+                        <button onclick="window.open('https://ionmateus.github.io/neptunus/')" class="hoverable">Site</button>
+                        <button onclick="window.open('https://github.com/IonMateus/neptunus')" class="hoverable">Código</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="card-inner" data-difficulty="1">
+                    <div class="card-front">
+                        <img src="https://raw.githubusercontent.com/IonMateus/cotucaflix/main/imagesReadme/catalogo.png">
+                    </div>
+                    <div class="card-back">
+                        <h2>Cotucaflix</h2>
+                        <p>Site simples de catálogos de filmes</p>
+                        <i><b>HTML | CSS</b></i> <br>
+
+                        <button onclick="window.open('https://ionmateus.github.io/cotucaflix/')" class="hoverable">Site</button>
+                        <button onclick="window.open('https://github.com/IonMateus/cotucaflix')" class="hoverable">Código</button>
+                    </div>
+                </div>
+            </div>
+      
+
+   
+
+        </div>
+    </div>
+
+    <div id="awards" class="contentDiv">
+        <h2>Awards 🏅</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+        
+        <div class="accordion">
+            <div id="accordion-header">
+                <h3>🥈 Lorem</h3>
+            </div>
+            <div id="accordion-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div id="accordion-header">
+                <h3>🥈 Lorem</h3>
+            </div>
+            <div id="accordion-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+            </div>
+        </div>
+
+        <div class="accordion">
+            <div id="accordion-header">
+                <h3>🥈 Lorem</h3>
+            </div>
+            <div id="accordion-content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+            </div>
+        </div>
+        
+        
+        
+
+
+    </div>
+
+    <div id="others" class="contentDiv">
+        <h2>Others ➕</h2>
+
+        <div class="contentDiv">
+            <h2>Events 📢</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+        </div>
+        <div class="contentDiv">
+            <h2>School 🎓</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi deserunt odit enim, asperiores architecto maiores! Voluptate, unde impedit officia quam minus ipsa dolores distinctio magni ratione illo assumenda, aut dolore?</p>
+        </div>
+        <div class="contentDiv">
+            <h2>Links 🔗</h2>
+            <div class="contentDiv">
+                <h3><a href="https://github.com/ionmateus" target="_blank">GitHub.com/ionmateus</a></h3>
+                <h3><a href="">GitHub.com/ionmateus</a></h3>
+                <h3><a href="">GitHub.com/ionmateus</a></h3>
+                <h3><a href="">GitHub.com/ionmateus</a></h3>
+            </div>
+            
+        </div>
+
+    </div>
+
+        
+
+    <div class="cursor">
+        <div class="cursor__ball cursor__ball--big">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+    </div>
+        <div class="cursor__ball cursor__ball--small cursor__ball--small-black"></div>
+        <div class="cursor__ball cursor__ball--small cursor__ball--small-white"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>

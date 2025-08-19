@@ -1,0 +1,33 @@
+{
+    "education": [
+        {
+            "degree": "Técnico em Informática",
+            "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
+            "period": "2023 - Atualmente",
+            "description": "Formação intensiva cobrindo algoritmos, arquitetura de software, desenvolvimento full-stack e banco de dados e muito mais. Integrado ao Ensino Médio."
+        }
+    ],
+    "research_and_competitions": [
+        {
+            "category": "Iniciação Científica (PIBIC-EM)",
+            "title": "Uma Abordagem de Aprendizado de Máquina para Predição da Evasão Escolar",
+            "description": "Projeto de pesquisa focado desenvolvido em Python onde foi criada um modelo preditivo para evasão escolar.",
+            "period": "2024-2025",
+            "imageUrl": "https://www.cotil.unicamp.br/wp-content/uploads/2023/04/PIBIC-EM-745x600.jpg"
+        },
+        {
+            "category": "Desafios de Tecnologia",
+            "title": "Medalha de Bronze na Olimpíada Brasileira de Tecnologia (OBT) + 3o Lugar no 'Desafio App'",
+            "description": "A equipe olímpica The Tech Titans (TTT) ganhou medalha de bronze na OBT, sendo convidados para a Semana da Escola Avançada de Tecnologia (EAT), onde lá ganhou em terceiro lugar, em escala nacional, o 'Desafio App' com o projeto AlzCare, um aplicativo para suporte para cuidadores de idosos com Alzheimer.",
+            "period": "2024",
+            "imageUrl": "https://media.licdn.com/dms/image/v2/D4D22AQEgZvrMNIGCBw/feedshare-shrink_800/feedshare-shrink_800/0/1722355524932?e=1758758400&v=beta&t=2jvMxphNcpmY9ULN7pqWaIT7joxGJvBDN5G6fA4VDMA"
+        },
+        {
+            "category": "Competições de Empreendedorismo",
+            "title": "Representantes Estaduais no Liga Jovem + Finalistas no Inova Jovem Unicamp",
+            "description": "A equipe The Tech Titans venceu a etapa estadual do Desafio Liga Jovem, passando para a fase entre os estados brasileiros. Também chegoua à ultima fase do Inova Jovem Unicamp. Ambas com o projeto AlzCare.",
+            "period": "2024",
+            "imageUrl": "https://www.inova.unicamp.br/inovajovem/wp-content/uploads/2024/11/Participantes-Final-Inova-Jovem-Reproducao-Zoom-1-1024x478.png"
+        }
+    ]
+}

@@ -8,7 +8,13 @@ https://codepen.io/clementGir/pen/RQqvQx
 -----------------------------------------------------
 
 -----------------------------------------------------
-
+    <header class="flex items-center justify-center space-x-6 py-4 bg-transparent text-gray-800">
+        <a class="hover:text-blue-500 transition duration-300" href="#">Home</a>
+        <a class="hover:text-blue-500 transition duration-300" href="#about">About</a>
+        <a class="hover:text-blue-500 transition duration-300" href="#projects">Projects</a>
+        <a class="hover:text-blue-500 transition duration-300" href="#awards">Awards</a>
+        <a class="hover:text-blue-500 transition duration-300" href="#others">Others</a>
+    </header>
 -----------------------------------------------------
 
 -----------------------------------------------------
