@@ -26,6 +26,36 @@
         "imageUrl": "https://www.cotil.unicamp.br/wp-content/uploads/2023/04/PIBIC-EM-745x600.jpg",
         "repoUrl": "https://github.com",
         "liveUrl": "#"
+    },
+    {
+        "id": "proj-4",
+        "title": "The Hall - Online Chat",
+        "shortDescription": "Chat online with as many people as you want. You can create rooms with or without a password. When a room is empty, it is automatically deleted. It is also possible to send .PNG images.",
+        "longDescription": "Chat online with as many people as you want. You can create rooms with or without a password. When a room is empty, it is automatically deleted. It is also possible to send .PNG images.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Socket", "Realtime Data", "API"],
+        "imageUrl": "https://raw.githubusercontent.com/IonMateus/thehall/main/public/images/create.png",
+        "repoUrl": "https://github.com/IonMateus/thehall",
+        "liveUrl": "https://thehall.onrender.com/"
+    },
+    {
+        "id": "proj-5",
+        "title": "ConstelArt - NASA Space Apps Challenge 2024",
+        "shortDescription": "Chat online with as many people as you want. You can create rooms with or without a password. When a room is empty, it is automatically deleted. It is also possible to send .PNG images.",
+        "longDescription": "Chat online with as many people as you want. You can create rooms with or without a password. When a room is empty, it is automatically deleted. It is also possible to send .PNG images.",
+        "technologies": ["JavaScript", "HTML", "CSS", "Three JS"],
+        "imageUrl": "https://constelart.onrender.com/assets/images/whiteLogo.png",
+        "repoUrl": "https://github.com/IonMateus/ConstelArt",
+        "liveUrl": "https://constelart.onrender.com/"
+    },
+    {
+        "id": "proj-6",
+        "title": "CodeDrafts",
+        "shortDescription": "Uma rede social funcional. Projeto de Práticas Profissionais 2.",
+        "longDescription": "Uma rede social funcional. Projeto de Práticas Profissionais 2.",
+        "technologies": ["JavaScript", "HTML", "CSS", "API", "Banco de Dados"],
+        "imageUrl": "https://private-user-images.githubusercontent.com/129080603/287567573-b535147c-4192-4076-bcbe-8eb6b0a7ca3c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU5ODYxNTQsIm5iZiI6MTc1NTk4NTg1NCwicGF0aCI6Ii8xMjkwODA2MDMvMjg3NTY3NTczLWI1MzUxNDdjLTQxOTItNDA3Ni1iY2JlLThlYjZiMGE3Y2EzYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgyM1QyMTUwNTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZDNhNmFiYzNjNjgzODVlZGFhYzM1ZmJjNWIyNWU3ODY0M2IwNmIyNDk0NTgxYWE1ZTNhMzQ0MDRjNTZmZDc4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.3OkBtpibZNRk-EpELBAEHKNT3DOXcUBDvDXqr9qgmYk",
+        "repoUrl": "https://github.com/IonMateus/codedrafts",
+        "liveUrl": "https://codedrafts-5as0.onrender.com/"
     }
 
 ]

@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!container) return;
 
         const educationHTML = `
-            <h3 class="animate-on-scroll">Formação Acadêmica</h3>
+            <h3 class="animate-on-scroll">Formação Acadêmica & Experiência</h3>
             <div class="timeline animate-on-scroll">
                 ${data.education.map(item => `
                     <div class="timeline-item">

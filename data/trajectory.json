@@ -3,8 +3,20 @@
         {
             "degree": "Técnico em Informática",
             "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
-            "period": "2023 - Atualmente",
+            "period": "2023 - Atualmente (3 anos)",
             "description": "Formação intensiva cobrindo algoritmos, arquitetura de software, desenvolvimento full-stack e banco de dados e muito mais. Integrado ao Ensino Médio."
+        },
+        {
+            "degree": "Monitor de Informática",
+            "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
+            "period": " Fev 2024 - Jun 2024 (1 Semestre)",
+            "description": "Selecionado como um dos monitores de informática do Departamento de Processamento de Dados, ofereci suporte através de horários semanais para tirar dúvidas, desde erros de sintaxe até lógica para resolução de problemas."
+        },
+        {
+            "degree": "Programa de Iniciação Científica - PIBIC-EM Unicamp",
+            "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
+            "period": " Ago 2024 - Ago 2025 (1 Ano)",
+            "description": "Programa de Iniciação Científica Júnior (PIBIC-EM) da Unicamp, com foco em pesquisa aplicada em Inteligência Artificial."
         }
     ],
     "research_and_competitions": [
@@ -28,6 +40,15 @@
             "description": "A equipe The Tech Titans venceu a etapa estadual do Desafio Liga Jovem, passando para a fase entre os estados brasileiros. Também chegoua à ultima fase do Inova Jovem Unicamp. Ambas com o projeto AlzCare.",
             "period": "2024",
             "imageUrl": "https://www.inova.unicamp.br/inovajovem/wp-content/uploads/2024/11/Participantes-Final-Inova-Jovem-Reproducao-Zoom-1-1024x478.png"
+        },
+        {
+            "category": "Competições e Olimpíadas Científicas",
+            "title": "Multi Medalista em Olimpiadas Cientificas, +10 Medalhas",
+           "description": "Durante o ensino médio participei de diversas olimpíadas e competições acadêmicas, conquistando medalhas como Prata na OBMEP (Olimpíada Brasileira de Matemática), Bronze na OBMEP, Bronze na OBA (Olimpíada Brasileira de Astronomia e Astronáutica), Ouro na OBA, Ouro na ONC (Olimpíada Nacional de Ciências), Ouro na Mathématiques sans Frontières, Bronze no Canguru de Matemática, Ouro na ONEE (Olimpíada Nacional de Eficiência Energética) e Bronze na OBT (Olimpíada Brasileira de Tecnologia)."
+,
+
+            "period": "2024",
+            "imageUrl": "https://elitecampinas.com.br/wp-content/uploads/2023/11/olimpiadas-site-elite-21.png"
         }
     ]
 }
