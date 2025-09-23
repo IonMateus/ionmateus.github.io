@@ -4,7 +4,7 @@
             "degree": "Técnico em Informática",
             "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
             "period": "2023 - Atualmente (3 anos)",
-            "description": "Formação intensiva cobrindo algoritmos, arquitetura de software, desenvolvimento full-stack e banco de dados e muito mais. Integrado ao Ensino Médio."
+            "description": "Formação intensiva cobrindo algoritmos, arquitetura de software, desenvolvimento full-stack, banco de dados e muito mais. Integrado ao Ensino Médio."
         },
         {
             "degree": "Monitor de Informática",
@@ -16,7 +16,7 @@
             "degree": "Programa de Iniciação Científica - PIBIC-EM Unicamp",
             "institution": "Colégio Técnico de Campinas (COTUCA - Unicamp)",
             "period": " Ago 2024 - Ago 2025 (1 Ano)",
-            "description": "Programa de Iniciação Científica Júnior (PIBIC-EM) da Unicamp, com foco em pesquisa aplicada em Inteligência Artificial."
+            "description": "Programa de Iniciação Científica Júnior (PIBIC-EM) da Unicamp, com foco em pesquisa aplicada em Inteligência Artificial para previsão de evasão escolar."
         }
     ],
     "research_and_competitions": [
@@ -37,7 +37,7 @@
         {
             "category": "Competições de Empreendedorismo",
             "title": "Representantes Estaduais no Liga Jovem + Finalistas no Inova Jovem Unicamp",
-            "description": "A equipe The Tech Titans venceu a etapa estadual do Desafio Liga Jovem, passando para a fase entre os estados brasileiros. Também chegoua à ultima fase do Inova Jovem Unicamp. Ambas com o projeto AlzCare.",
+            "description": "A equipe The Tech Titans venceu a etapa estadual do Desafio Liga Jovem, passando para a fase entre os estados brasileiros. Também chegou à ultima fase do Inova Jovem Unicamp. Ambas com o projeto AlzCare.",
             "period": "2024",
             "imageUrl": "https://www.inova.unicamp.br/inovajovem/wp-content/uploads/2024/11/Participantes-Final-Inova-Jovem-Reproducao-Zoom-1-1024x478.png"
         },
